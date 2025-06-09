@@ -1,0 +1,25 @@
+{
+  "name": "sunvoy-assessment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsc main.ts && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : { 
+    "npm" : ">=8.0.0 <11.0.0",
+    "node" : ">=16.0.0 <21.0.0"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}
